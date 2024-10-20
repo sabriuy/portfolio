@@ -1,0 +1,40 @@
+.App{ 
+    background-image: url('./components/assets/fondored.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: montserrat;
+    
+}
+
+.container-principal-proyectos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-left: 15%;
+   
+}
+
+.titulo-certificados{
+ color: white;
+ padding: 10px;
+ margin-left:50px;
+}
+
+.container-certificados{
+position: absolute;
+display: inline;
+
+}
+
+
+
+.container-skills{
+    display: flex;
+    flex-direction:column;
+    justify-content:left;
+    width: 50%;
+    color: white;
+    margin-left: 50%;
+   
+}

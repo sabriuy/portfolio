@@ -1,0 +1,142 @@
+.container-proyect{
+    margin-bottom: 5%;
+    position:relative;
+    width: 220px;
+    height: 295px;
+    margin-bottom: 20px;
+    overflow: hidden;
+   
+    
+}
+
+.container-proyect span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent,white);
+    animation: animate-1 2s linear infinite;
+}
+
+@keyframes animate-1 {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.container-proyect span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent,white);
+    animation: animate-2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate-2 {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+
+.container-proyect span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent,white);
+    animation: animate-3 2s linear infinite;
+}
+
+@keyframes animate-3 {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.container-proyect span:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to left, transparent,white);
+    animation: animate-4 2s linear infinite;
+    
+}
+
+@keyframes animate-4 {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+
+
+.img-proyect{
+    width: 100%;
+    height: 150px;
+}
+
+
+.container-texto{
+  height: 100px;
+  display: inline;
+  padding-left: .5rem;
+  line-height: .8rem;
+  text-align: center;
+ 
+}
+
+.txt{
+    color:white;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 80%;
+    
+}
+
+
+.txt-fijo{
+
+    font-size: 75%;
+    color: white;
+    
+}
+
+.enlace{
+   color: white;
+   margin-left: 10px;
+   
+}
+
+.container-tecnologias{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.tecnologias{
+    width: 200px;
+    height: 35px;
+    bottom: 8px;
+    
+}

@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-body{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height:600px;
+    font-family:montserrat;
+    display:flex;
+    justify-content:center;
+    padding:100px;
+}
+
+.foto-perfil{
+    width:200px;
+    border-radius: 90%;
+    border:white 1px solid;
+}
+
+.container-txt{
+    padding-left:20px;
+    color: white;
+    font-weight: 600;
+    font-family:montserrat;
+    
+}
+
+
+
+.btn-1{
+  background-color:transparent;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:start;
+  flex-direction: column;
+  
+}
+
+
+.btn-1 a{
+  text-decoration: none;
+  border: 2px solid white ;
+  padding: 10px;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: small;
+  position:relative;
+  display:inline-block;
+}
+
+span {
+  position: relative;
+  z-index: 3;
+}
+
+.btn-1 a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  height: calc(100% - 10px);
+  background-color: rgb(4, 15, 36);
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+  
+}
+
+.btn-1 a:hover::before{
+  transform: scaleY(0);
+}
+
+.btn-1 a::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+  background-color: rgb(4, 15, 36);
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+
+.btn-1 a:hover::after{
+  transform: scaleX(0);
+}
