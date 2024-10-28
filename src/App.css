@@ -9,10 +9,10 @@
 
 .container-principal-proyectos{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
-    margin-left: 15%;
-   
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-gap: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .titulo-certificados{
@@ -37,4 +37,26 @@ display: inline;
     color: white;
     margin-left: 50%;
    
+}
+
+@media (max-width :1000px){
+    .container-certificados{
+        position: relative;
+        display: block;
+        
+        }
+
+        .container-skills{
+            display: flex;
+            flex-direction:column;
+           justify-content: center;
+            position: relative;
+            width: 100%;
+            color: white;
+            margin-left: 50px;
+            margin-top: 50px;
+            
+           
+        }
+
 }

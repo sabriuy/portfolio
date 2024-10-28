@@ -6,16 +6,20 @@ import About from './components/About.jsx'
 import HtmlLogo from './components/HtmlLogo.jsx';
 import CssLogo from './components/CssLogo.jsx';
 import JsLogo from './components/JsLogo.jsx';
+import Reactlogo from './components/Reactlogo.jsx';
+import Vitelogo from './components/Vitelogo.jsx';
 import Certificado from './components/Certificado.jsx';
 import Skills from './components/Skills.jsx'
 import Contacto from './components/Contacto.jsx';
 import imagen1 from './components/assets/proyecto1.PNG'
 import imagen2 from './components/assets/proyecto2.PNG'
 import imagen3 from './components/assets/proyecto3.PNG'
+import imagen4 from './components/assets/proyecto4.PNG'
 import coder from './components/assets/coderdiploma.png'
 import html5 from './components/assets/diplomaHtml5.jpg'
 import css3 from './components/assets/diplomaCss3.jpeg'
 import js from './components/assets/diplomaJs.jpeg'
+
 
 
 
@@ -29,6 +33,14 @@ function App() {
          <Body/>
 
              <div className='container-principal-proyectos'>
+               <Proyectos
+                  imagen={imagen4}
+                  texto='Página de recetas'
+                  enlace='https://github.com/sabriuy/recetas-saludables'
+                  logo1={<Reactlogo/>} logo2={<Vitelogo/>}
+                /> 
+
+
                <Proyectos
                   imagen={imagen1}
                   texto='Diseño front-end de pagina comercial'
@@ -46,13 +58,15 @@ function App() {
                  texto='Carrousel de fotos aleatorias consumiendo una Api pública'
                  enlace='https://github.com/sabriuy/photoslider'
                  logo1={<HtmlLogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
+
+               
              </div>
 
-            <About texto="En el año 2022 comencé mi formacion en desarrollo web, he realizado varios cursos en
-             reconocidas academias y también he tenido una gran parte de mi formacion de forma autónoma, 
-             investigando, leyendo y creando proyectos donde pudiera implementar y desarrollar mis habilidades
-              de una mejor manera, desde que me adentre en el apasionante mundo de la programacion he adquirido 
-              conocimiente de diversos lenguajes de como HTML5, CSS, Javascript y React JS"/> 
+            <About texto="En 2022, inicié mi formación en desarrollo web, completando diversos cursos en academias 
+            reconocidas. Complementé mi aprendizaje con un enfoque autónomo, investigando, leyendo y creando proyectos
+            que me permitieran implementar y perfeccionar mis habilidades. Desde que me adentré en el apasionante
+            mundo de la programación, he adquirido conocimientos en varios lenguajes y herramientas, incluyendo HTML5, CSS,
+            JavaScript y React.js."/> 
  
        <div className='container-certificados'>
        <h3 className='titulo-certificados'>Certificaciones</h3>

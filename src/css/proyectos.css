@@ -1,12 +1,7 @@
 .container-proyect{
-    margin-bottom: 5%;
-    position:relative;
-    width: 220px;
-    height: 295px;
-    margin-bottom: 20px;
-    overflow: hidden;
-   
     
+    position:relative;
+    overflow: hidden;
 }
 
 .container-proyect span:nth-child(1){
@@ -98,8 +93,9 @@
 
 .container-texto{
   height: 100px;
+  width: 90%;
   display: inline;
-  padding-left: .5rem;
+  
   line-height: .8rem;
   text-align: center;
  
@@ -123,7 +119,7 @@
 
 .enlace{
    color: white;
-   margin-left: 10px;
+ 
    
 }
 
@@ -135,8 +131,8 @@
 }
 
 .tecnologias{
-    width: 200px;
-    height: 35px;
+    
+    height: 5%;
     bottom: 8px;
     
 }
