@@ -13,18 +13,22 @@ function Body(){
 
 
               <div>
-                  <img className="foto-perfil" src={imagen} alt="foto de perfil"/>
+                  <img className="foto-perfil" src={imagen} alt="foto de perfil" />
+              
               </div>
 
                <div className="container-txt">
-                  <h1>Sabrina Cabrera</h1>
-                  <p>Desarrollo Web</p>
+                  <h1 className="titulo-nombre">Sabrina Cabrera</h1>
+                 
+                  <p className="subtitulo"> &lt;desarrollo web/&gt; </p>
+
                   
-                     <div class="btn-1">
-                        
-                        <a href="../curriculum.pdf" download><span>descargar cv</span></a>
+                      <div className="btn-1">
+                         <a href="../curriculum.pdf" download><span>descargar cv</span></a>
                       </div>
-             </div>
+                  
+               </div>
+
 
        </div>
     

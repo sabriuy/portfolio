@@ -24,10 +24,20 @@
 .container-txt{
     padding-left:20px;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     font-family:montserrat;
-    
+
+
 }
+
+.titulo-nombre{
+  font-weight: 600;
+}
+
+.subtitulo{
+  font-size: 1.5rem;
+}
+
 
 
 
@@ -92,4 +102,60 @@ span {
 
 .btn-1 a:hover::after{
   transform: scaleX(0);
+}
+
+.container-redes-body{
+  display: none;
+}
+
+@media (max-width:1000px){
+
+  .foto-perfil{
+    width:150px;
+    border-radius: 90%;
+    border:white 1px solid;
+}
+
+.container-txt{
+  padding-left:20px;
+  color: white;
+  font-weight: 400;
+  font-family:montserrat;
+  
+  
+}
+
+.titulo-nombre{
+  font-weight: 600;
+}
+
+.subtitulo{
+  font-size: .9rem;
+}
+
+
+
+  .btn-1{
+    background-color:transparent;
+    width: 140px;
+    height: 15px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction: column;
+    
+  }
+
+  .btn-1 a{
+    text-decoration: none;
+    border: 2px solid white ;
+    padding: 8px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:.6rem;
+    position:relative;
+    display:inline-block;
+  }
 }

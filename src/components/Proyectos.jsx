@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "react-bootstrap"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/proyectos.css'
 
 
@@ -23,7 +23,7 @@ function Proyectos (props) {
                   <p className="txt">{props.texto}</p>
                   <p className="txt-fijo">ver proyecto completo   
                     <a className="enlace" href={props.enlace} target="_blank">
-                         <i style={{cursor:"pointer",fontSize:"1.2rem"}} class="bi bi-box-arrow-in-right"></i>
+                         <i style={{cursor:"pointer",fontSize:"1.2rem"}} className="bi bi-box-arrow-in-right"></i>
                     </a>
                  </p>
                  
