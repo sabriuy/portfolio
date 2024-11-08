@@ -44,7 +44,7 @@ function App() {
                <Proyectos
                   imagen={imagen1}
                   texto='Diseño front-end de pagina comercial'
-                  enlace='https://github.com/sabriuy/sabrina/tree/main/proyecto%20barraca-alianza'
+                  enlace='https://github.com/sabriuy/barracaalianzaweb'
                   logo1={<HtmlLogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
 
                <Proyectos
