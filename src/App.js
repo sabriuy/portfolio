@@ -3,7 +3,7 @@ import Header from './components/Header.jsx';
 import Body from './components/Body.jsx';
 import Proyectos from './components/Proyectos.jsx';
 import About from './components/About.jsx'
-import HtmlLogo from './components/HtmlLogo.jsx';
+import Htmllogo from './components/HtmlLogo.jsx'
 import CssLogo from './components/CssLogo.jsx';
 import JsLogo from './components/JsLogo.jsx';
 import Reactlogo from './components/Reactlogo.jsx';
@@ -45,19 +45,19 @@ function App() {
                   imagen={imagen1}
                   texto='Diseño front-end de pagina comercial'
                   enlace='https://github.com/sabriuy/barracaalianzaweb'
-                  logo1={<HtmlLogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
+                  logo1={<Htmllogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
 
                <Proyectos
                  imagen={imagen2}
-                 texto='App para conocer el estado del tiempo en cualquier ciudad'
+                 texto='App del tiempo'
                  enlace='https://github.com/sabriuy/weather-app'
-                 logo1={<HtmlLogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
+                 logo1={<Htmllogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
         
                <Proyectos 
                  imagen={imagen3}
-                 texto='Carrousel de fotos aleatorias consumiendo una Api pública'
+                 texto='Carrousel de fotos'
                  enlace='https://github.com/sabriuy/photoslider'
-                 logo1={<HtmlLogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
+                 logo1={<Htmllogo/>} logo2={<CssLogo/>} logo3={<JsLogo/>}/>
 
                
              </div>

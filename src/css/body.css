@@ -61,6 +61,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: small;
+  font-weight: 500;
   position:relative;
   display:inline-block;
 }
@@ -155,6 +156,7 @@ span {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size:.6rem;
+    font-weight: 600;
     position:relative;
     display:inline-block;
   }
