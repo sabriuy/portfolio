@@ -24,7 +24,7 @@ function Body(){
 
                   
                       <div className="btn-1">
-                         <a href="/curriculum.pdf" download><span>descargar cv</span></a>
+                         <a href="https://sabriuy.github.io/portfolio/assets/curriculum.pdf" download="../curriculum.pdf"><span>descargar cv</span></a>
                       </div>
                   
                </div>
