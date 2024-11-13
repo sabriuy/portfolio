@@ -1,6 +1,7 @@
 import React from "react"
 import imagen from './assets/foto-perfil.webp'
 import  "../css/body.css";
+import pdf from "./assets/curriculum.pdf"
 
 
 
@@ -24,7 +25,7 @@ function Body(){
 
                   
                       <div className="btn-1">
-                         <a href="../curriculum.pdf" download="../curriculum.pdf"><span>descargar cv</span></a>
+                         <a href={pdf} target="_blank" rel="noopener noreferrer" download="curriculum sabrina"><span>descargar cv</span></a>
                       </div>
                   
                </div>
