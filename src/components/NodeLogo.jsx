@@ -1,11 +1,11 @@
 import React from "react";
-import logo1 from './assets/logo192.png'
+import logo1 from './assets/node-logo.jpg'
 
-function Reactlogo (){
+function Node (){
     return(
   <img style={{width:"45px", height:"35px", background:"transparent"}} src={logo1}/>
 
     )
 }
 
-export default Reactlogo
+export default Node

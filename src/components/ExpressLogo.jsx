@@ -1,11 +1,11 @@
 import React from "react";
-import logo1 from './assets/vite-logo.png'
+import logo1 from './assets/express-logo.png'
 
-function Vitelogo (){
+function Express (){
     return(
   <img style={{width:"45px", height:"35px",}} src={logo1}/>
 
     )
 }
 
-export default Vitelogo
+export default Express

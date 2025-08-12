@@ -5,6 +5,7 @@ import '../css/proyectos.css'
 
 
 
+
 function Proyectos (props) {
   
     return (
@@ -21,16 +22,17 @@ function Proyectos (props) {
                 <span></span>
 
                   <p className="txt">{props.texto}</p>
-                  <p className="txt-fijo">ver proyecto completo   
-                    <a className="enlace" href={props.enlace} target="_blank">
-                         <i style={{cursor:"pointer",fontSize:"1.2rem"}} className="bi bi-box-arrow-in-right"></i>
-                    </a>
-                 </p>
+                  
+                  
+                  
                  
                  <div className="container-tecnologias">
-                    <div className="tecnologias">{props.logo1}{props.logo2}{props.logo3}</div>
-                    
-                 </div>
+                    <div className="tecnologias">{props.logo1} {props.logo2} {props.logo3}</div>
+                </div>
+
+                  <div className="txt-fijo"> 
+                     <a className="enlace" href={props.enlace} target="_blank">ver proyecto completo</a>
+                   </div>
 
              </div>
            

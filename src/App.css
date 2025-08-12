@@ -9,10 +9,13 @@
 
 .container-principal-proyectos{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 
+    5rem;
+    height: 650px;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
 .titulo-certificados{
