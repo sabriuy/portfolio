@@ -1,11 +1,13 @@
-import React from "react";
-import logo1 from './assets/node-logo.jpg'
+import React from 'react';
+import logo1 from './assets/node-logo.jpg';
 
-function Node (){
-    return(
-  <img style={{width:"45px", height:"35px", background:"transparent"}} src={logo1}/>
-
-    )
+function Node() {
+  return (
+    <img
+      style={{ width: '45px', height: '35px', background: 'transparent' }}
+      src={logo1}
+    />
+  );
 }
 
-export default Node
+export default Node;
