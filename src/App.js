@@ -15,8 +15,9 @@ import Skills from './components/Skills.jsx';
 import Contacto from './components/Contacto.jsx';
 import imagen1 from './components/assets/proyecto1.PNG';
 import imagen2 from './components/assets/proyecto2.PNG';
-import imagen3 from './components/assets/proyecto3.PNG';
-import imagen4 from './components/assets/proyecto4.PNG';
+import imagen3 from './components/assets/proyecto4.PNG';
+import imagen4 from './components/assets/calendariofoto3.PNG';
+
 import coder from './components/assets/coderdiploma.png';
 import html5 from './components/assets/diplomaHtml5.jpg';
 import css3 from './components/assets/diplomaCss3.jpeg';
@@ -40,10 +41,11 @@ function App() {
 
         <Proyectos
           imagen={imagen4}
-          texto='Página de recetas'
-          enlace='https://github.com/sabriuy/recetas-saludables'
+          texto='Calendario de actividades / CRUD completo'
+          enlace='https://github.com/sabriuy/CalendarioDeEventos'
           logo1={<Reactlogo />}
-          logo2={<Vitelogo />}
+          logo2={<NodeLogo />}
+          logo3={<ExpressLogo />}
         />
 
         <Proyectos
@@ -57,11 +59,10 @@ function App() {
 
         <Proyectos
           imagen={imagen3}
-          texto='Carrousel de fotos'
+          texto='Blog de recetas'
           enlace='https://github.com/sabriuy/photoslider'
-          logo1={<Htmllogo />}
-          logo2={<CssLogo />}
-          logo3={<JsLogo />}
+          logo1={<Reactlogo />}
+          logo2={<Vitelogo />}
         />
       </div>
 
