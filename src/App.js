@@ -60,7 +60,7 @@ function App() {
         <Proyectos
           imagen={imagen3}
           texto='Blog de recetas'
-          enlace='https://github.com/sabriuy/photoslider'
+          enlace='https://github.com/sabriuy/recetas-saludables'
           logo1={<Reactlogo />}
           logo2={<Vitelogo />}
         />
